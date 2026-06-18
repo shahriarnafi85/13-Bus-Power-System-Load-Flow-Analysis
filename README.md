@@ -1,5 +1,17 @@
-# 13-Bus-Power-System-Load-Flow-Analysis
+# 13-Bus Power System Load Flow Analysis
 
-Tech Stack: MATLAB, PowerWorld Simulator
+## Project Overview
+This project implements a comprehensive steady-state load flow analysis program on a 13-bus electrical network. It features an analytical mathematical engine built from scratch to calculate grid variables, combined with an assessment of grid-tied solar photovoltaic (PV) integration and line loss minimization.
 
-Developed a complete load flow analysis program by coding Gauss-Seidel and Newton-Raphson methods in MATLAB to calculate steady-state bus voltages, phase angles and power flows across a 13-bus network. Integrated solar PV across all eligible buses to identify optimal connection points and mapped line loss variations before and after integration. Validated by reconstructing the 13-bus network in PowerWorld Simulator to validate MATLAB load flow results and accuracy of the coded simulation results.
+## Tech Stack
+* **Mathematical Modeling & Coding:** MATLAB
+* **Network Simulation & Validation:** PowerWorld Simulator
+
+## Implemented Engineering Tasks
+* **Numerical Solvers:** Coded the Gauss-Seidel and Newton-Raphson algorithms in MATLAB to solve non-linear power flow equations for unknown bus voltages and phase angles.
+* **Renewable Integration:** Modeled grid-tied solar PV generation inputs to map active power injection effects on overall transmission line losses.
+* **Industrial Validation:** Reconstructed the complete 13-bus network layout visually in PowerWorld Simulator to verify convergence limits and system-wide reactive power dispatch accuracy.
+
+## How to Use
+* Open the `main_load_flow.m` script in MATLAB to run the mathematical simulation.
+* Open the `network_model.pwb` file inside PowerWorld Simulator to explore the interactive visual grid layout and voltage profiles.
