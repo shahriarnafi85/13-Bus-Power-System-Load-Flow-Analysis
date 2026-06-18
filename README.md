@@ -11,7 +11,3 @@ This project implements a comprehensive steady-state load flow analysis program 
 * **Numerical Solvers:** Coded the Gauss-Seidel and Newton-Raphson algorithms in MATLAB to solve non-linear power flow equations for unknown bus voltages and phase angles.
 * **Renewable Integration:** Modeled grid-tied solar PV generation inputs to map active power injection effects on overall transmission line losses.
 * **Industrial Validation:** Reconstructed the complete 13-bus network layout visually in PowerWorld Simulator to verify convergence limits and system-wide reactive power dispatch accuracy.
-
-## How to Use
-* Open the `main_load_flow.m` script in MATLAB to run the mathematical simulation.
-* Open the `network_model.pwb` file inside PowerWorld Simulator to explore the interactive visual grid layout and voltage profiles.
